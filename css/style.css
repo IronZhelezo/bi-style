@@ -1,0 +1,186 @@
+* {
+    margin: 0 auto;
+}
+body {
+    background-color: #081928;
+    color: #0e4d66;
+    font-family: Tahoma;
+}
+a {
+    display: block;
+    height: 34px;
+    width: 155px;
+}
+p {
+    font-size: 14px;
+    padding: 0;
+}
+.hat, .menu, .blank, .footer, .phone, .logo ,.fone, .phone_text {
+    position: absolute;
+}
+.all {
+    margin: auto;
+    background: rgba(8, 25, 40, 1) radial-gradient(ellipse at center 59% , rgba(45, 170, 220, 0.3) 26%, rgba(45, 170, 220, 0.2) 10%, rgba(45, 170, 220, 0.20) 30%, rgba(45, 170, 220, 0) 40%) no-repeat scroll left bottom / 2000px 700px;
+    min-height: 1200px;
+    position: relative;
+    width: 2000px;
+}
+.fone {
+    background: rgba(8, 25, 40, 0) radial-gradient(circle at center 72% , rgba(18, 74, 98, 1) 8%, rgba(8, 25, 40, .1) 52%) no-repeat scroll 0 0 ;
+     min-height: 1200px;
+     width: 2000px;
+
+}
+.hat {
+    background-image: url("../img/sprite.png");
+    height: 70px;
+    margin-left: 863px;
+    margin-top: 39px;
+    width: 265px;
+}
+.hat span {
+    font-size: 70px;
+    color: rgba(255,255,255,0);
+}
+.menu {
+    height: 37px;
+    margin-left: 616px;
+    margin-top: 153px;
+    width: 1000px;
+}
+.menu div {
+    background-image: url("../img/menu.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 37px;
+    opacity: 0.5;
+    width: 160px;
+}
+.menu .twitter {
+    background-position: -165px 0;
+}
+.menu .facebook {
+    background-position: -330px 0;
+    opacity: 1;
+}
+.menu .vk {
+    background-position: -495px 0;
+    opacity: 1;
+    width: 150px;
+}
+.menu .google {
+    background-position: -650px 0;
+}
+.blank {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 4px 7px 5px rgba(1, 1, 1, 0.5);
+    margin-left: 630px;
+    margin-top: 207px;
+    min-height: 827px;
+    padding-left: 70px;
+    padding-right: 54px;
+    width: 616px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-box-shadow: 4px 7px 5px rgba(1,1,1,.5);
+  -moz-box-shadow: 4px 7px 5px rgba(1,1,1,.5);
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 42px;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.15);
+}
+.foto {
+    background-image: url("../img/foto.jpg");
+    height: 196px;
+    margin-left: -3px;
+    margin-top: 5px;
+    width: 187px;
+}
+.quest {
+    margin-left: 25px;
+}
+.data {
+    margin: 3px 1px 17px;
+}
+.quest .data, .title, .pers {
+    font-weight: bold;
+}
+.answer {
+    margin-left: 28px;
+}
+.answer .data, .text {
+    font-weight: 500;
+}
+.left {
+    float: left;
+}
+.clear {
+    clear: both;
+    height: 0;
+}
+.title {
+    font-size: 18px;
+    margin: 33px 0;
+}
+.qs {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+.down {
+    margin-top: -27px;
+}
+.an {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 16px 10px;
+}
+.about {
+    margin-top: -3px;
+}
+.ab {
+    margin-bottom: 20px;
+}
+.pers {
+    margin-top: 18px;
+}
+.text {
+    line-height: 24px;
+    margin-bottom: 17px;
+    margin-top: -4px;
+}
+.footer {
+    background-image: url("../img/footer.png");
+    bottom: 0;
+    height: 311px;
+    width: 2000px;
+    margin: auto;
+}
+.phone, .logo {
+    background-image: url("../img/sprite.png");
+    bottom: 25px;
+    display: inline-block;
+    height: 38px;
+    vertical-align: bottom;
+}
+.phone {
+    background-position: -283px -28px;
+    color: rgba(242,176,28,0);
+    font-family: Arial;
+    font-size: 24px;
+    margin-left: 628px;
+    width: 265px;
+}
+.logo {
+    background-position: -864px -28px;
+    margin-left: 1209px;
+    width: 171px;
+}
+.phone .ph {
+    color: rgba(241,241,241,0);
+    font-size: 12px;
+}
